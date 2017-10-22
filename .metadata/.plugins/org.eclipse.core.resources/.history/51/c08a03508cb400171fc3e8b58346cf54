@@ -1,0 +1,20 @@
+package com.devinline.spark.SparkSample
+
+import org.apache.spark.SparkConf
+import org.apache.spark.SparkContext
+import org.apache.spark.rdd.RDD.rddToPairRDDFunctions
+
+class CSVWordCount {
+  def main(args: Array[String]) = {
+    
+    //Start the Spark context
+    val conf = new SparkConf()
+      .setAppName("CSVWordCount")
+      .setMaster("local")
+    val sc = new SparkContext(conf)
+    
+    //Read some example file to a test RDD
+    val csvFile = sc.textFile("../../../Exercises/sales_log/sales_log/sales-1.csv")
+    
+  }
+}

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workingSetManager>
+<workingSet editPageId="org.eclipse.ui.resourceWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1508394733166_1" label="SparkSample" name="SparkSample">
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/SparkSample" type="4"/>
+</workingSet>
+<workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1508044273624_0" label="Window Working Set" name="Aggregate for window 1508044273609"/>
+<mruList name="SparkSample"/>
+</workingSetManager>
