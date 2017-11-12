@@ -5,7 +5,7 @@ import org.apache.spark.SparkContext
 import org.apache.spark.rdd.RDD.rddToPairRDDFunctions
 
 object Sales {
-  def main(args: Array[String]) = {
+/*  def main(args: Array[String]) = {
  
     val salesReader = new SalesCSVReader("/home/nelum/Exercises/sales1.csv")
     var statistics = new SalesStatisticsComputer(salesReader)
@@ -36,5 +36,5 @@ object Sales {
          .saveAsTextFile("Output2.txt")           
       
     sc.stop()
-  }
+  }*/
 }
