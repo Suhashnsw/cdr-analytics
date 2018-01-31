@@ -12,7 +12,7 @@ class UserCsvRedear(val spark: SparkSession) extends UserReader{
     Paths.get(resource).toString   
 
   
-  override def readUsers(resource: String): RDD[String] =
+  override def readFile(resource: String): RDD[String] =
     spark.sparkContext.textFile(fsPath(resource))
     
 }

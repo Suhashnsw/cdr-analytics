@@ -12,5 +12,5 @@ trait UserReader {
   */
   def fsPath(resource: String): String;
   
-  def readUsers(resource: String): RDD[String];
+  def readFile(resource: String): RDD[String];
 }
